@@ -1,0 +1,30 @@
+Executando os Testes
+Este repositório contém implementações de algoritmos fundamentais juntamente com testes automatizados para garantir o correto funcionamento desses algoritmos. Siga as instruções abaixo para executar os testes.
+
+Pré-requisitos
+Antes de executar os testes, você precisa ter o Node.js e o npm (Node Package Manager) instalados em seu sistema. Certifique-se de tê-los instalados corretamente. Você pode baixar o Node.js em https://nodejs.org e seguir as instruções de instalação.
+
+Instalação
+Clone este repositório em seu computador ou faça o download do arquivo ZIP e extraia-o em uma pasta de sua escolha.
+
+Abra um terminal (ou prompt de comando) e navegue até o diretório do projeto.
+
+Execute o comando npm install para instalar as dependências necessárias.
+
+Executando os Testes
+No terminal, ainda no diretório do projeto, execute o comando npm test.
+
+Os testes automatizados serão executados e os resultados serão exibidos no terminal.
+
+Verifique se todos os testes foram executados com sucesso. Se algum teste falhar, você receberá uma mensagem de erro indicando qual teste falhou e o motivo.
+
+Você também pode ver detalhes dos testes, incluindo as expectativas definidas e os resultados obtidos, abrindo os arquivos de teste em um editor de código de sua preferência.
+
+Personalização dos Testes
+Caso você queira personalizar ou adicionar mais testes, você pode editar os arquivos de teste existentes ou criar novos arquivos de teste seguindo o mesmo padrão.
+
+Os arquivos de teste estão localizados no diretório test.
+
+Cada arquivo de teste segue o padrão <nome-do-algoritmo>.test.js. Por exemplo, o teste para o algoritmo de Fibonacci está no arquivo Fibonacci.test.js.
+
+Os testes são escritos utilizando a biblioteca Jest. Você pode encontrar mais informações sobre como escrever testes usando o Jest na documentação oficial em https://jestjs.io/docs/getting-started
